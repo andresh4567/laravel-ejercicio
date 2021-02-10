@@ -1,0 +1,79 @@
+form .avatar{
+    width: 55px;
+    margin-bottom: 15px;
+}
+.pub_image{
+    margin-bottom: 25px;
+}
+.navbar .container-avatar,
+.pub_image .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 900px;
+    overflow: hidden;
+    border: 1px solid grey;
+    margin-top: 5px;
+    padding: 0;
+}
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%;
+}
+.pub_image .container-avatar{
+    float: left;
+    margin-right: 10px;
+}
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 40px;
+}
+.pub_image .data-user a{
+    color: #444444;
+}
+.pub_image .data-user a:hover{
+    text-decoration: none;
+}
+.pub_image .name{
+    color: grey;
+}
+.image-container{
+    width: 100%;
+    max-height: auto;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+}
+.pub_image .card-body{
+    padding: 0;
+}
+.pub_image .description{
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+.pub_image .btn-comments{
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.likes{
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    float: left;
+    cursor: pointer;
+}
+.likes img{
+    width: 25px;
+}
+.pub_image_detail .comments{
+    padding: 20px;
+}
+.number-likes{
+    color: gray;
+    font-size: 11px;
+}
